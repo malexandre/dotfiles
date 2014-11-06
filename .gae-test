@@ -1,0 +1,86 @@
+#!/bin/bash
+
+function gae-test()
+{
+    local project=`pwd | egrep -o "^.*app/"`
+    local args=""
+    local params=""
+    local level=false
+
+    if [[ "$project" == "" ]]; then
+        if [[ `pwd | egrep -o "^.*app"` == "" ]]; then
+            project=`find -type d -name "app" | head -n1`
+        else
+            project="."
+        fi
+    fi
+
+    params="--with-gae --gae-lib-root $APPENGINE --gae-application $project --without-sandbox -v"
+
+    while test $# -gt 0; do
+        case "$1" in
+            "-a" | "--all")
+                params="$params --no-skip"
+                shift
+                ;;
+            "--level")
+                params="$params --logging-level=$2"
+                level=true
+                shift
+                shift
+                ;;
+            "--coverage")
+                params="$params --with-coverage --cover-erase --cover-package=$2"
+                shift
+                shift
+                ;;
+            "--coverage-html")
+                params="$params --with-coverage --cover-erase --cover-html --cover-package=$2"
+                shift
+                shift
+                ;;
+            *)
+                args="$1"
+                shift
+                ;;
+        esac
+    done
+
+    if [[ "$level" = false ]]; then
+        params="$params --logging-level=ERROR"
+    fi
+
+    if [[ "$args" != "" ]]; then
+        arr=(${args//:/ })
+
+        local tests=""
+        local py=""
+        local file=""
+        if [[ "${arr[0]}" != *.py ]]; then
+            py=".py"
+        fi
+        if [[ "${arr[0]}" != *\.* ]]; then
+            file=`find -name "${arr[0]}$py" | head -n1`
+        else
+            file="${arr[0]}"
+        fi
+
+        if [[ "${arr[1]}" != "" ]]; then
+            local class=""
+            if [[ "${arr[1]}" != *\.* && -f "$file" ]]; then
+                class=`grep "class" "$file" | tail -1 | cut -d ' ' -f2 | cut -d '(' -f1`
+            fi
+
+            if [[ "$class" != "" ]]; then
+                tests="$file:$class.${arr[1]}"
+            else
+                tests="$file:${arr[1]}"
+            fi
+        else
+            tests="$file"
+        fi
+        params="$params $tests"
+    fi
+
+    nosetests `echo "$params"`
+}

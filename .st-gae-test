@@ -1,0 +1,30 @@
+#!/bin/bash
+APPENGINE=/home/marc/google_appengine/
+project=`pwd | egrep -o "^.*app/"`
+package=${PWD##*/}
+pylintdir=`pwd`
+args=""
+params=""
+level=false
+
+if [[ "$project" == "" ]]; then
+    if [[ `pwd | egrep -o "^.*app"` == "" ]]; then
+        project=`find -type d -name "app" | head -n1`
+    else
+        project="."
+    fi
+fi
+
+if [[ "$package" == "tests" ]]; then
+    cd ..
+    package=${PWD##*/}
+    pylintdir=`pwd`
+    cd -
+fi
+
+if [[ "$package" != "server" ]]; then
+    package="server.$package"
+fi
+
+nosetests --with-gae --gae-lib-root "$APPENGINE" --gae-application "$project" --without-sandbox -v --with-coverage --cover-erase --cover-html --cover-package="$package" --logging-level=ERROR
+pylint --rcfile='~/.pylintrc' --reports='no' --ignore='tests' "$pylintdir"
