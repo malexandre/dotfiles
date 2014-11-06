@@ -1,0 +1,20 @@
+'context-menu':
+  '.workspace':
+    'Separator': '-'
+    'Copy': 'clipboard-history:copy'
+    'Paste': 'core:paste'
+    'Paste History': 'clipboard-history:paste'
+    'Separator': '-'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Clipboard History'
+      'submenu': [
+        { 'label': 'Copy', 'command': 'clipboard-history:copy' }
+        { 'label': 'Paste', 'command': 'clipboard-history:paste' }
+      ]
+    ]
+  }
+]

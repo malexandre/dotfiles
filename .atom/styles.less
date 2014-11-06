@@ -1,0 +1,127 @@
+.tree-view .status-ignored
+{
+    display: none;
+}
+
+.entity.other.inherited-class, .entity.name.class
+{
+    text-decoration: none;
+}
+
+.editor .indent-guide
+{
+    box-shadow: inset 1px 0 #333;
+}
+
+.editor
+{
+    background-color: #222;
+}
+
+.wrap-guide
+{
+    background-color: #333;
+}
+
+// SIDE BAR
+/*
+.list-group li:not(.list-nested-item),
+.list-tree li:not(.list-nested-item),
+.list-group li.list-nested-item > .list-item,
+.list-tree li.list-nested-item > .list-item {
+    line-height: 22px;
+}
+
+.list-group .selected:before,
+.list-tree .selected:before {
+    height: 22px;
+}
+
+.name.icon {
+    height: 22px;
+    top: 0 !important;
+    line-height: 22px;
+    vertical-align: top;
+}
+
+.name.icon:before {
+    top: 0 !important;
+}//*/
+
+// TAB BAR
+.tab-bar .tab,
+.tab-bar .tab:before,
+.tab-bar .tab.active,
+.tab-bar .tab.active:before,
+.tab-bar .tab .close-icon,
+.tab-bar .tab.active .close-icon
+{
+    height: 30px;
+    line-height: 30px;
+}
+
+.tab-bar .tab.modified:not(:hover) .close-icon
+{
+    top: 13px;
+}
+
+.tab-bar .tab .title.icon-tools
+{
+    top: -1px;
+}
+
+.tab-bar .tab .title[data-name$="gulpfile.js"]
+{
+    top: -5px;
+}
+
+.tab-bar .tab.active .title[data-name$="gulpfile.js"]
+{
+    top: -4px;
+}
+
+.list-inline.tab-bar.inset-panel
+{
+    border: 0;
+}
+
+// JSON
+.meta.structure.dictionary > .json,
+.meta.structure.dictionary > .json > .punctuation.definition.string.begin.json,
+.meta.structure.dictionary > .json > .punctuation.definition.string.end.json
+{
+    color: #ff5722;
+}
+
+.meta.structure.dictionary.value > .json,
+.meta.structure.dictionary.value > .json > .punctuation.definition.string.begin.json,
+.meta.structure.dictionary.value > .json > .punctuation.definition.string.end.json
+{
+    color: #ffd54f;
+}
+
+.punctuation.definition.dictionary.begin.json,
+.punctuation.definition.dictionary.end.json,
+.punctuation.definition.array.begin.json,
+.punctuation.definition.array.end.json
+{
+    color: #24b6d5;
+}
+
+// SCSS
+.function.misc.scss,
+.property-name.scss
+{
+    color: #8bdc3A;
+}
+
+.variable.scss
+{
+    color: #03a9f4;
+}
+
+// CSS
+.property-name.css
+{
+    color: #8bdc3A;
+}

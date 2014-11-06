@@ -1,0 +1,43 @@
+{
+  "name": "git-history",
+  "main": "./lib/git-history",
+  "version": "1.1.2",
+  "description": "View previous versions of any file known to git.",
+  "activationEvents": [
+    "git-history:show-file-history"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakesankey/git-history"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# Git History Package for Atom [![Build Status](http://img.shields.io/travis/jakesankey/git-history.svg?style=flat)](https://travis-ci.org/jakesankey/git-history)\n\nView previous versions of any file known to git.\n\n`apm install git-history`\n\n![](https://raw.githubusercontent.com/jakesankey/git-history/master/resources/screenshot.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jakesankey/git-history/issues"
+  },
+  "homepage": "https://github.com/jakesankey/git-history",
+  "_id": "git-history@1.1.2",
+  "dist": {
+    "shasum": "5e24837ed7aa10b3bad64fac9cbe180fe7902206"
+  },
+  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\git-history\\1.1.2\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/git-history-view.coffee",
+        "lib/git-history.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

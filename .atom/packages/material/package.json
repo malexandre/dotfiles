@@ -1,0 +1,36 @@
+{
+  "name": "material",
+  "theme": "syntax",
+  "version": "0.8.0",
+  "description": "Syntax theme based off of the Material Design color palette",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paradox41/material-color-scheme"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# Material Color Scheme (WIP)\n\nSyntax theme based off of the [Material Design color palette](http://www.google.com/design/spec/style/color.html)\n\n## Palette\n\n![palette](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/material-palette.png)\n\n## Sublime Text 2/3\n\n### Install using Package Control\n\nIf you are using [Package Control](https://sublime.wbond.net/), you can\ninstall Material Color Scheme via **Package Control: Install Package**. Search for `Material Color Scheme` once the list appears. Select Material Color Scheme by going to **Preferences -> Color Scheme -> Material Color Scheme**\n\n### Manual install\n\n1.  Clone `git@github.com:paradox41/material-color-scheme.git` and then copy the **Material.tmTheme** file\n2.\tOpen Sublime text and click on **Preferences -> Browse Packages**\n3.\tThen put the **Material.tmTheme** there\n4.\tSelect Material Color Scheme by going to **Preferences -> Color Scheme -> Material Color Scheme**\n\n### Atom\n\nInstall using `apm install material` or get it [here](https://atom.io/themes/material).\n\n### HTML\n\n![html](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/HTML.png)\n\n### JavaScript\n\n![javascript](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/JavaScript.png)\n\n### Python\n\n![python](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/Python.png)\n\n### SCSS\n\n![scss](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/SCSS.png)\n\n### Rust\n\n![rust](https://raw.githubusercontent.com/paradox41/material-color-scheme/master/images/Rust.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/paradox41/material-color-scheme/issues"
+  },
+  "homepage": "https://github.com/paradox41/material-color-scheme",
+  "_id": "material@0.8.0",
+  "dist": {
+    "shasum": "c2aff44ba2e352bee86a9b56a8572733145458e4"
+  },
+  "_resolved": "C:\\Users\\Marc\\AppData\\Local\\Temp\\d-114926-5824-ayfx7z\\package.tgz",
+  "_from": "C:\\Users\\Marc\\AppData\\Local\\Temp\\d-114926-5824-ayfx7z\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

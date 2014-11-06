@@ -1,0 +1,46 @@
+{
+  "name": "maybs-quit",
+  "main": "./lib/maybs-quit",
+  "version": "0.2.0",
+  "description": "Quitting shouldn't be so easy. Modal confirmation dialogs are annoying, so why not show a quick panel instead?",
+  "activationEvents": [
+    "maybs-quit:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malexandre/maybs-quit"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# maybs-quit package\n\nSimple portage of the [Maybs-Quit package from Sublime Text](https://github.com/xavi-/sublime-maybs-quit).\n\nQuote :\n> Why are <kbd>ctrl/cmd</kbd> + <kbd>w</kbd> (close file) and <kbd>ctrl/cmd</kbd> + <kbd>q</kbd> (quit) right next to each other?!?! I'm just trying to close a file, but for some insane reason my pinky drifts 1cm to the left and suddenly sublime disappears.\n>\n> Never again!\n\n![Demo](demo.png)\n\n## Installation\n```sh\napm install maybs-quit\n```\nor find it in the Packages tab under settings.\n\n## Usage\nThe default <kbd>ctrl/cmd</kbd> + <kbd>q</kbd> keybinding is replaced by the menu from Maybs-Quit.\n\n<kbd>alt</kbd> + <kbd>F4</kbd> still quits the application.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/malexandre/maybs-quit/issues"
+  },
+  "homepage": "https://github.com/malexandre/maybs-quit",
+  "_id": "maybs-quit@0.2.0",
+  "dist": {
+    "shasum": "f360d4cd92942c4b431286ae36aa16c7552613c2"
+  },
+  "_resolved": "C:\\Users\\Marc\\AppData\\Local\\Temp\\d-114929-1444-1p5igfv\\package.tgz",
+  "_from": "C:\\Users\\Marc\\AppData\\Local\\Temp\\d-114929-1444-1p5igfv\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/maybs-quit-view (marc-SATELLITE-R830's conflicted copy 2014-10-29).coffee",
+        "lib/maybs-quit-view.coffee",
+        "lib/maybs-quit.coffee"
+      ],
+      ".json": [
+        "package (marc-SATELLITE-R830's conflicted copy 2014-10-29).json",
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

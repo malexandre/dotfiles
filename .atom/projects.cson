@@ -1,0 +1,30 @@
+'Solvay PGT':
+  'title': 'Solvay PGT'
+  'paths': [
+    '/home/marc/git/solvay-pgt'
+  ]
+'Veolia MESEP':
+  'title': 'Veolia MESEP'
+  'paths': [
+    '/home/marc/git/veolia-mesep'
+  ]
+'Lumyo':
+  'title': 'Lumyo'
+  'paths': [
+    '/home/marc/git/generator-lumyo'
+  ]
+'Lumix':
+  'title': 'Lumix'
+  'paths': [
+    '/home/marc/git/lumix'
+  ]
+'Atom Maybs-quit':
+  'title': 'Atom Maybs-quit'
+  'paths': [
+    '/home/marc/git/maybs-quit'
+  ]
+'Pelican theme':
+  'title': 'Pelican theme'
+  'paths': [
+    '/home/marc/git/pelican-theme'
+  ]

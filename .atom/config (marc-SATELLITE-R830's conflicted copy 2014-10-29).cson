@@ -1,0 +1,153 @@
+'global':
+  'metrics':
+    'userId': '155e0695142b807b1ec962cbd48cd0ec6c29fff8'
+  'exception-reporting':
+    'userId': '7e5b51e0-491b-470f-2a11-bb41065bd9b1'
+  'welcome':
+    'showOnStartup': false
+  'core':
+    'disabledPackages': [
+      'welcome'
+      'timecop'
+      'release-notes'
+      'language-toml'
+    ]
+    'projectHome': 'c:\\User\\Marc\\git'
+    'themes': [
+      'seti-ui'
+      'material'
+    ]
+    'ignoredNames': [
+      '.git node_modules'
+    ]
+  'tree-view':
+    'hideIgnoredNames': true
+    'hideVcsIgnoredFiles': true
+  'editor':
+    'fontFamily': 'Droid Sans Mono'
+    'fontSize': 12
+    'preferredLineLength': 120
+    'showIndentGuide': true
+    'tabLength': 4
+    'invisibles': {}
+  'autoclose-html':
+    'closeOnEndOfOpeningTag': true
+  'atom-beautify':
+    'beautifyEntireFileOnSave': false
+    'html_indent_inner_html': true
+    'html_wrap_line_length': 120
+    'js_brace_style': 'expand'
+    'js_indent_size': 4
+    'js_jslint_happy': true
+    'js_keep_array_indentation': true
+    'js_keep_function_indentation': true
+    'js_max_preserve_newlines': 2
+    'python_max_line_length': 120
+    '_analyticsUserId': '246b81df-5769-4344-939d-fe78c9fb0c33'
+  'git-blame':
+    'ignoreWhiteSpaceDiffs': true
+  'git-diff':
+    'showIconsInEditorGutter': true
+  'highlight-line':
+    'hideHighlightOnSelect': true
+  'highlight-selected':
+    'hideHighlightOnSelectedWord': true
+  'project-manager':
+    'showPath': false
+    'sortBy': 'title'
+  'tabs-to-spaces':
+    'onSave': 'untabify'
+  'Zen':
+    'fullscreen': true
+  'minimap':
+    'plugins':
+      'highlight-selected': true
+'.js.rails.source source.jquery.js':
+  'editor':
+    'preferredLineLength': 120
+'.rails.rjs.ruby.source':
+  'editor':
+    'preferredLineLength': 120
+'.python.regexp.source':
+  'editor':
+    'preferredLineLength': 120
+'.ruby.source.sql':
+  'editor':
+    'preferredLineLength': 120
+'.html.ruby.text':
+  'editor':
+    'tabLength': 2
+    'preferredLineLength': 120
+'.mustache.source.sql':
+  'editor': {}
+'.html.php.text':
+  'editor': {}
+'.text.xml.xsl':
+  'editor': {}
+'.plist.text.xml':
+  'editor': {}
+'.html.mustache.text':
+  'editor': {}
+'.js.regexp.source':
+  'editor': {}
+'.basic.html.text':
+  'editor':
+    'tabLength': 2
+    'preferredLineLength': 120
+'.erb.html.text':
+  'editor': {}
+'.rails.ruby.source':
+  'editor':
+    'preferredLineLength': 120
+'.css.scss.source':
+  'editor':
+    'preferredLineLength': 120
+'.js.jsx.source':
+  'editor':
+    'preferredLineLength': 120
+'.c.source ++ *':
+  'editor': {}
+'.litcoffee.source':
+  'editor':
+    'preferredLineLength': 120
+    'tabLength': 2
+'.python.source':
+  'editor': {}
+'.plain.text':
+  'editor': {}
+'.sass.source':
+  'editor':
+    'preferredLineLength': 120
+'.js.source':
+  'editor':
+    'preferredLineLength': 120
+'.git-commit.text':
+  'editor': {}
+'.source.sql':
+  'editor': {}
+'.text.xml':
+  'editor': {}
+'.source.yaml':
+  'editor': {}
+'.source.toml':
+  'editor': {}
+'.plist.source':
+  'editor': {}
+'.c.source':
+  'editor': {}
+'.gfm.source':
+  'editor': {}
+'.css.source':
+  'editor':
+    'preferredLineLength': 120
+'.git-config.source':
+  'editor': {}
+'.git-rebase.text':
+  'editor': {}
+'.ruby.source':
+  'editor':
+    'preferredLineLength': 120
+'.coffee.source':
+  'editor':
+    'preferredLineLength': 120
+    'tabLength': 2

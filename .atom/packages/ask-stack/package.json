@@ -1,0 +1,724 @@
+{
+  "name": "ask-stack",
+  "main": "./lib/ask-stack",
+  "version": "0.1.0",
+  "description": "Quickly get answers and code samples from Stack Overflow in Atom",
+  "activationEvents": [
+    "ask-stack:ask-question"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chris911/Ask-Stack-Atom"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Christophe Naud-Dulude",
+    "url": "https://github.com/Chris911"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "request": "2.x",
+    "highlight.js": "8.x",
+    "copy-paste": "0.2.x"
+  },
+  "readme": "# Ask Stack Overflow for Atom [![Build Status](https://travis-ci.org/Chris911/Ask-Stack-Atom.svg?branch=master)](https://travis-ci.org/Chris911/Ask-Stack-Atom)\n\nQuickly get answers and code samples from [Stack Overflow](http://stackoverflow.com/) directly in Atom editor. \n\n![Preview](http://i.imgur.com/ynZlOAT.gif)\n\n## Features\n* Insert or copy code samples with the click of a button\n* Easily browse between questions and answers\n* Sort by relevance or votes\n* Access to the number of votes, tags, accepted answer and more\n\n## Usage \nToggle the Ask Stack Overflow form using `CTRL + ALT + A` or by typing `Ask Stack` in the command bar. \n\n\n## Installation \n[Package homepage](https://atom.io/packages/ask-stack)\n\n**Install from the command line:** <br>\n`$ apm install ask-stack`\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Chris911/Ask-Stack-Atom/issues"
+  },
+  "homepage": "https://github.com/Chris911/Ask-Stack-Atom",
+  "_id": "ask-stack@0.1.0",
+  "dist": {
+    "shasum": "a0cb5ebe748072f6299020e5b5d7c99d49e9146b"
+  },
+  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\ask-stack\\0.1.0\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "copy-paste",
+        "version": "0.2.2",
+        "path": "node_modules/copy-paste/index.js"
+      },
+      {
+        "name": "execSync",
+        "version": "1.0.2",
+        "path": "node_modules/copy-paste/node_modules/execSync/index.js"
+      },
+      {
+        "name": "temp",
+        "version": "0.5.1",
+        "path": "node_modules/copy-paste/node_modules/execSync/node_modules/temp/lib/temp.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.1.4",
+        "path": "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "1.2.3",
+        "path": "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "highlight.js",
+        "version": "8.3.0",
+        "path": "node_modules/highlight.js/lib/index.js"
+      },
+      {
+        "name": "request",
+        "version": "2.46.0",
+        "path": "node_modules/request/index.js"
+      },
+      {
+        "name": "aws-sign2",
+        "version": "0.5.0",
+        "path": "node_modules/request/node_modules/aws-sign2/index.js"
+      },
+      {
+        "name": "bl",
+        "version": "0.9.3",
+        "path": "node_modules/request/node_modules/bl/bl.js"
+      },
+      {
+        "name": "readable-stream",
+        "version": "1.0.33",
+        "path": "node_modules/request/node_modules/bl/node_modules/readable-stream/readable.js"
+      },
+      {
+        "name": "core-util-is",
+        "version": "1.0.1",
+        "path": "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/lib/util.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.1",
+        "path": "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "isarray",
+        "version": "0.0.1",
+        "path": "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/index.js"
+      },
+      {
+        "name": "string_decoder",
+        "version": "0.10.31",
+        "path": "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/index.js"
+      },
+      {
+        "name": "caseless",
+        "version": "0.6.0",
+        "path": "node_modules/request/node_modules/caseless/index.js"
+      },
+      {
+        "name": "forever-agent",
+        "version": "0.5.2",
+        "path": "node_modules/request/node_modules/forever-agent/index.js"
+      },
+      {
+        "name": "form-data",
+        "version": "0.1.4",
+        "path": "node_modules/request/node_modules/form-data/lib/form_data.js"
+      },
+      {
+        "name": "async",
+        "version": "0.9.0",
+        "path": "node_modules/request/node_modules/form-data/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "combined-stream",
+        "version": "0.0.5",
+        "path": "node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js"
+      },
+      {
+        "name": "delayed-stream",
+        "version": "0.0.5",
+        "path": "node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js"
+      },
+      {
+        "name": "mime",
+        "version": "1.2.11",
+        "path": "node_modules/request/node_modules/form-data/node_modules/mime/mime.js"
+      },
+      {
+        "name": "hawk",
+        "version": "1.1.1",
+        "path": "node_modules/request/node_modules/hawk/index.js"
+      },
+      {
+        "name": "boom",
+        "version": "0.4.2",
+        "path": "node_modules/request/node_modules/hawk/node_modules/boom/index.js"
+      },
+      {
+        "name": "cryptiles",
+        "version": "0.2.2",
+        "path": "node_modules/request/node_modules/hawk/node_modules/cryptiles/index.js"
+      },
+      {
+        "name": "hoek",
+        "version": "0.9.1",
+        "path": "node_modules/request/node_modules/hawk/node_modules/hoek/index.js"
+      },
+      {
+        "name": "sntp",
+        "version": "0.2.4",
+        "path": "node_modules/request/node_modules/hawk/node_modules/sntp/index.js"
+      },
+      {
+        "name": "http-signature",
+        "version": "0.10.0",
+        "path": "node_modules/request/node_modules/http-signature/lib/index.js"
+      },
+      {
+        "name": "asn1",
+        "version": "0.1.11",
+        "path": "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/index.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "0.1.2",
+        "path": "node_modules/request/node_modules/http-signature/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "ctype",
+        "version": "0.5.2",
+        "path": "node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js"
+      },
+      {
+        "name": "json-stringify-safe",
+        "version": "5.0.0",
+        "path": "node_modules/request/node_modules/json-stringify-safe/stringify.js"
+      },
+      {
+        "name": "mime-types",
+        "version": "1.0.2",
+        "path": "node_modules/request/node_modules/mime-types/lib/index.js"
+      },
+      {
+        "name": "node-uuid",
+        "version": "1.4.1",
+        "path": "node_modules/request/node_modules/node-uuid/uuid.js"
+      },
+      {
+        "name": "oauth-sign",
+        "version": "0.4.0",
+        "path": "node_modules/request/node_modules/oauth-sign/index.js"
+      },
+      {
+        "name": "qs",
+        "version": "1.2.2",
+        "path": "node_modules/request/node_modules/qs/index.js"
+      },
+      {
+        "name": "stringstream",
+        "version": "0.0.4",
+        "path": "node_modules/request/node_modules/stringstream/stringstream.js"
+      },
+      {
+        "name": "tough-cookie",
+        "version": "0.12.1",
+        "path": "node_modules/request/node_modules/tough-cookie/lib/cookie.js"
+      },
+      {
+        "name": "punycode",
+        "version": "1.3.2",
+        "path": "node_modules/request/node_modules/tough-cookie/node_modules/punycode/punycode.js"
+      },
+      {
+        "name": "tunnel-agent",
+        "version": "0.4.0",
+        "path": "node_modules/request/node_modules/tunnel-agent/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/ask-stack-api-client.coffee",
+        "lib/ask-stack-result-view.coffee",
+        "lib/ask-stack-view.coffee",
+        "lib/ask-stack.coffee"
+      ],
+      ".js": [
+        "lib/vendor/bootstrap.min.js",
+        "node_modules/copy-paste/index.js",
+        "node_modules/copy-paste/node_modules/execSync/index.js",
+        "node_modules/copy-paste/node_modules/execSync/install.js",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/examples/grepcount.js",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/examples/pdfcreator.js",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/lib/temp.js",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/rimraf.js",
+        "node_modules/copy-paste/platform/darwin.js",
+        "node_modules/copy-paste/platform/linux.js",
+        "node_modules/copy-paste/platform/win32.js",
+        "node_modules/highlight.js/lib/highlight.js",
+        "node_modules/highlight.js/lib/index.js",
+        "node_modules/highlight.js/lib/languages/1c.js",
+        "node_modules/highlight.js/lib/languages/actionscript.js",
+        "node_modules/highlight.js/lib/languages/apache.js",
+        "node_modules/highlight.js/lib/languages/applescript.js",
+        "node_modules/highlight.js/lib/languages/asciidoc.js",
+        "node_modules/highlight.js/lib/languages/autohotkey.js",
+        "node_modules/highlight.js/lib/languages/avrasm.js",
+        "node_modules/highlight.js/lib/languages/axapta.js",
+        "node_modules/highlight.js/lib/languages/bash.js",
+        "node_modules/highlight.js/lib/languages/brainfuck.js",
+        "node_modules/highlight.js/lib/languages/capnproto.js",
+        "node_modules/highlight.js/lib/languages/clojure.js",
+        "node_modules/highlight.js/lib/languages/cmake.js",
+        "node_modules/highlight.js/lib/languages/coffeescript.js",
+        "node_modules/highlight.js/lib/languages/cpp.js",
+        "node_modules/highlight.js/lib/languages/cs.js",
+        "node_modules/highlight.js/lib/languages/css.js",
+        "node_modules/highlight.js/lib/languages/d.js",
+        "node_modules/highlight.js/lib/languages/dart.js",
+        "node_modules/highlight.js/lib/languages/delphi.js",
+        "node_modules/highlight.js/lib/languages/diff.js",
+        "node_modules/highlight.js/lib/languages/django.js",
+        "node_modules/highlight.js/lib/languages/dos.js",
+        "node_modules/highlight.js/lib/languages/dust.js",
+        "node_modules/highlight.js/lib/languages/elixir.js",
+        "node_modules/highlight.js/lib/languages/erb.js",
+        "node_modules/highlight.js/lib/languages/erlang-repl.js",
+        "node_modules/highlight.js/lib/languages/erlang.js",
+        "node_modules/highlight.js/lib/languages/fix.js",
+        "node_modules/highlight.js/lib/languages/fsharp.js",
+        "node_modules/highlight.js/lib/languages/gcode.js",
+        "node_modules/highlight.js/lib/languages/gherkin.js",
+        "node_modules/highlight.js/lib/languages/glsl.js",
+        "node_modules/highlight.js/lib/languages/go.js",
+        "node_modules/highlight.js/lib/languages/gradle.js",
+        "node_modules/highlight.js/lib/languages/groovy.js",
+        "node_modules/highlight.js/lib/languages/haml.js",
+        "node_modules/highlight.js/lib/languages/handlebars.js",
+        "node_modules/highlight.js/lib/languages/haskell.js",
+        "node_modules/highlight.js/lib/languages/haxe.js",
+        "node_modules/highlight.js/lib/languages/http.js",
+        "node_modules/highlight.js/lib/languages/ini.js",
+        "node_modules/highlight.js/lib/languages/java.js",
+        "node_modules/highlight.js/lib/languages/javascript.js",
+        "node_modules/highlight.js/lib/languages/json.js",
+        "node_modules/highlight.js/lib/languages/lasso.js",
+        "node_modules/highlight.js/lib/languages/less.js",
+        "node_modules/highlight.js/lib/languages/lisp.js",
+        "node_modules/highlight.js/lib/languages/livecodeserver.js",
+        "node_modules/highlight.js/lib/languages/livescript.js",
+        "node_modules/highlight.js/lib/languages/lua.js",
+        "node_modules/highlight.js/lib/languages/makefile.js",
+        "node_modules/highlight.js/lib/languages/markdown.js",
+        "node_modules/highlight.js/lib/languages/mathematica.js",
+        "node_modules/highlight.js/lib/languages/matlab.js",
+        "node_modules/highlight.js/lib/languages/mel.js",
+        "node_modules/highlight.js/lib/languages/mizar.js",
+        "node_modules/highlight.js/lib/languages/monkey.js",
+        "node_modules/highlight.js/lib/languages/nginx.js",
+        "node_modules/highlight.js/lib/languages/nimrod.js",
+        "node_modules/highlight.js/lib/languages/nix.js",
+        "node_modules/highlight.js/lib/languages/nsis.js",
+        "node_modules/highlight.js/lib/languages/objectivec.js",
+        "node_modules/highlight.js/lib/languages/ocaml.js",
+        "node_modules/highlight.js/lib/languages/oxygene.js",
+        "node_modules/highlight.js/lib/languages/parser3.js",
+        "node_modules/highlight.js/lib/languages/perl.js",
+        "node_modules/highlight.js/lib/languages/php.js",
+        "node_modules/highlight.js/lib/languages/powershell.js",
+        "node_modules/highlight.js/lib/languages/processing.js",
+        "node_modules/highlight.js/lib/languages/profile.js",
+        "node_modules/highlight.js/lib/languages/protobuf.js",
+        "node_modules/highlight.js/lib/languages/puppet.js",
+        "node_modules/highlight.js/lib/languages/python.js",
+        "node_modules/highlight.js/lib/languages/q.js",
+        "node_modules/highlight.js/lib/languages/r.js",
+        "node_modules/highlight.js/lib/languages/rib.js",
+        "node_modules/highlight.js/lib/languages/rsl.js",
+        "node_modules/highlight.js/lib/languages/ruby.js",
+        "node_modules/highlight.js/lib/languages/ruleslanguage.js",
+        "node_modules/highlight.js/lib/languages/rust.js",
+        "node_modules/highlight.js/lib/languages/scala.js",
+        "node_modules/highlight.js/lib/languages/scheme.js",
+        "node_modules/highlight.js/lib/languages/scilab.js",
+        "node_modules/highlight.js/lib/languages/scss.js",
+        "node_modules/highlight.js/lib/languages/smalltalk.js",
+        "node_modules/highlight.js/lib/languages/sql.js",
+        "node_modules/highlight.js/lib/languages/stylus.js",
+        "node_modules/highlight.js/lib/languages/swift.js",
+        "node_modules/highlight.js/lib/languages/tcl.js",
+        "node_modules/highlight.js/lib/languages/tex.js",
+        "node_modules/highlight.js/lib/languages/thrift.js",
+        "node_modules/highlight.js/lib/languages/twig.js",
+        "node_modules/highlight.js/lib/languages/typescript.js",
+        "node_modules/highlight.js/lib/languages/vala.js",
+        "node_modules/highlight.js/lib/languages/vbnet.js",
+        "node_modules/highlight.js/lib/languages/vbscript-html.js",
+        "node_modules/highlight.js/lib/languages/vbscript.js",
+        "node_modules/highlight.js/lib/languages/vhdl.js",
+        "node_modules/highlight.js/lib/languages/vim.js",
+        "node_modules/highlight.js/lib/languages/x86asm.js",
+        "node_modules/highlight.js/lib/languages/xl.js",
+        "node_modules/highlight.js/lib/languages/xml.js",
+        "node_modules/request/index.js",
+        "node_modules/request/lib/cookies.js",
+        "node_modules/request/lib/copy.js",
+        "node_modules/request/lib/debug.js",
+        "node_modules/request/lib/helpers.js",
+        "node_modules/request/node_modules/aws-sign2/index.js",
+        "node_modules/request/node_modules/bl/bl.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/duplex.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_duplex.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_passthrough.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_readable.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_transform.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_writable.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/lib/util.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/util.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/test.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/build/build.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/index.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/index.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/passthrough.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/readable.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/transform.js",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/writable.js",
+        "node_modules/request/node_modules/caseless/index.js",
+        "node_modules/request/node_modules/caseless/test.js",
+        "node_modules/request/node_modules/forever-agent/index.js",
+        "node_modules/request/node_modules/form-data/lib/form_data.js",
+        "node_modules/request/node_modules/form-data/node_modules/async/lib/async.js",
+        "node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js",
+        "node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js",
+        "node_modules/request/node_modules/form-data/node_modules/mime/mime.js",
+        "node_modules/request/node_modules/form-data/node_modules/mime/test.js",
+        "node_modules/request/node_modules/hawk/example/usage.js",
+        "node_modules/request/node_modules/hawk/index.js",
+        "node_modules/request/node_modules/hawk/lib/browser.js",
+        "node_modules/request/node_modules/hawk/lib/client.js",
+        "node_modules/request/node_modules/hawk/lib/crypto.js",
+        "node_modules/request/node_modules/hawk/lib/index.js",
+        "node_modules/request/node_modules/hawk/lib/server.js",
+        "node_modules/request/node_modules/hawk/lib/utils.js",
+        "node_modules/request/node_modules/hawk/node_modules/boom/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/boom/lib/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/cryptiles/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/cryptiles/lib/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/hoek/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js",
+        "node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js",
+        "node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js",
+        "node_modules/request/node_modules/hawk/node_modules/sntp/index.js",
+        "node_modules/request/node_modules/hawk/node_modules/sntp/lib/index.js",
+        "node_modules/request/node_modules/http-signature/lib/index.js",
+        "node_modules/request/node_modules/http-signature/lib/parser.js",
+        "node_modules/request/node_modules/http-signature/lib/signer.js",
+        "node_modules/request/node_modules/http-signature/lib/util.js",
+        "node_modules/request/node_modules/http-signature/lib/verify.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/errors.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/index.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/reader.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/types.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/writer.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/lib/index.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/reader.test.js",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/writer.test.js",
+        "node_modules/request/node_modules/http-signature/node_modules/assert-plus/assert.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/ctf.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/ctio.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.fail.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.float.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.int.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.psinfo.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.struct.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.typedef.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/float/tst.rfloat.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/float/tst.wfloat.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.64.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.rint.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.wbounds.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.wint.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.64.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.roundtrip.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.ruint.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.wuint.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.basicr.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.basicw.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.char.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.endian.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.oldwrite.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.readSize.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.structw.js",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.writeStruct.js",
+        "node_modules/request/node_modules/json-stringify-safe/stringify.js",
+        "node_modules/request/node_modules/json-stringify-safe/test.js",
+        "node_modules/request/node_modules/mime-types/lib/index.js",
+        "node_modules/request/node_modules/node-uuid/benchmark/benchmark.js",
+        "node_modules/request/node_modules/node-uuid/uuid.js",
+        "node_modules/request/node_modules/oauth-sign/index.js",
+        "node_modules/request/node_modules/oauth-sign/test.js",
+        "node_modules/request/node_modules/qs/index.js",
+        "node_modules/request/node_modules/qs/lib/index.js",
+        "node_modules/request/node_modules/qs/lib/parse.js",
+        "node_modules/request/node_modules/qs/lib/stringify.js",
+        "node_modules/request/node_modules/qs/lib/utils.js",
+        "node_modules/request/node_modules/stringstream/example.js",
+        "node_modules/request/node_modules/stringstream/stringstream.js",
+        "node_modules/request/node_modules/tough-cookie/generate-pubsuffix.js",
+        "node_modules/request/node_modules/tough-cookie/lib/cookie.js",
+        "node_modules/request/node_modules/tough-cookie/lib/memstore.js",
+        "node_modules/request/node_modules/tough-cookie/lib/pubsuffix.js",
+        "node_modules/request/node_modules/tough-cookie/lib/store.js",
+        "node_modules/request/node_modules/tough-cookie/node_modules/punycode/punycode.js",
+        "node_modules/request/node_modules/tough-cookie/test.js",
+        "node_modules/request/node_modules/tunnel-agent/index.js",
+        "node_modules/request/request.js"
+      ],
+      ".json": [
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/package.json",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/package.json",
+        "node_modules/copy-paste/node_modules/execSync/node_modules/temp/package.json",
+        "node_modules/copy-paste/node_modules/execSync/package.json",
+        "node_modules/copy-paste/package.json",
+        "node_modules/highlight.js/package.json",
+        "node_modules/request/node_modules/aws-sign2/package.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/package.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/package.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/component.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/package.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json",
+        "node_modules/request/node_modules/bl/node_modules/readable-stream/package.json",
+        "node_modules/request/node_modules/bl/package.json",
+        "node_modules/request/node_modules/caseless/package.json",
+        "node_modules/request/node_modules/forever-agent/package.json",
+        "node_modules/request/node_modules/form-data/node_modules/async/component.json",
+        "node_modules/request/node_modules/form-data/node_modules/async/package.json",
+        "node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json",
+        "node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json",
+        "node_modules/request/node_modules/form-data/node_modules/mime/package.json",
+        "node_modules/request/node_modules/form-data/package.json",
+        "node_modules/request/node_modules/hawk/node_modules/boom/package.json",
+        "node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json",
+        "node_modules/request/node_modules/hawk/node_modules/hoek/package.json",
+        "node_modules/request/node_modules/hawk/node_modules/sntp/package.json",
+        "node_modules/request/node_modules/hawk/package.json",
+        "node_modules/request/node_modules/http-signature/node_modules/asn1/package.json",
+        "node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/package.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/float.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/int.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/psinfo.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/struct.json",
+        "node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/typedef.json",
+        "node_modules/request/node_modules/http-signature/package.json",
+        "node_modules/request/node_modules/json-stringify-safe/package.json",
+        "node_modules/request/node_modules/mime-types/component.json",
+        "node_modules/request/node_modules/mime-types/lib/custom.json",
+        "node_modules/request/node_modules/mime-types/lib/mime.json",
+        "node_modules/request/node_modules/mime-types/lib/node.json",
+        "node_modules/request/node_modules/mime-types/package.json",
+        "node_modules/request/node_modules/node-uuid/component.json",
+        "node_modules/request/node_modules/node-uuid/package.json",
+        "node_modules/request/node_modules/oauth-sign/package.json",
+        "node_modules/request/node_modules/qs/package.json",
+        "node_modules/request/node_modules/stringstream/package.json",
+        "node_modules/request/node_modules/tough-cookie/node_modules/punycode/package.json",
+        "node_modules/request/node_modules/tough-cookie/package.json",
+        "node_modules/request/node_modules/tunnel-agent/package.json",
+        "node_modules/request/package.json",
+        "package.json"
+      ],
+      ".node": [
+        "node_modules/copy-paste/node_modules/execSync/win32/v0.10/shell.node",
+        "node_modules/copy-paste/node_modules/execSync/win32/v0.8/shell.node"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "lib/vendor",
+          "",
+          "spec",
+          "spec/data"
+        ],
+        "dependencies": {
+          "request": "2.x",
+          "highlight.js": "8.x",
+          "copy-paste": "0.2.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/copy-paste",
+          "node_modules/copy-paste/platform"
+        ],
+        "dependencies": {
+          "execSync": "~1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/copy-paste/node_modules/execSync",
+          "node_modules/copy-paste/node_modules/execSync/test",
+          "node_modules/copy-paste/node_modules/execSync/win32/v0.10",
+          "node_modules/copy-paste/node_modules/execSync/win32/v0.8"
+        ],
+        "dependencies": {
+          "temp": "~0.5.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp/examples",
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp/lib",
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp",
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp/test"
+        ],
+        "dependencies": {
+          "rimraf": "~2.1.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf",
+          "node_modules/copy-paste/node_modules/execSync/node_modules/temp/node_modules/rimraf/test"
+        ],
+        "dependencies": {
+          "graceful-fs": "~1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request",
+          "node_modules/request/lib"
+        ],
+        "dependencies": {
+          "bl": "~0.9.0",
+          "caseless": "~0.6.0",
+          "forever-agent": "~0.5.0",
+          "form-data": "~0.1.0",
+          "json-stringify-safe": "~5.0.0",
+          "mime-types": "~1.0.1",
+          "node-uuid": "~1.4.0",
+          "qs": "~1.2.0",
+          "tunnel-agent": "~0.4.0",
+          "tough-cookie": ">=0.12.0",
+          "http-signature": "~0.10.0",
+          "oauth-sign": "~0.4.0",
+          "hawk": "1.1.1",
+          "aws-sign2": "~0.5.0",
+          "stringstream": "~0.0.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/bl",
+          "node_modules/request/node_modules/bl/test"
+        ],
+        "dependencies": {
+          "readable-stream": "~1.0.26"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/bl/node_modules/readable-stream",
+          "node_modules/request/node_modules/bl/node_modules/readable-stream/lib"
+        ],
+        "dependencies": {
+          "core-util-is": "~1.0.0",
+          "isarray": "0.0.1",
+          "string_decoder": "~0.10.x",
+          "inherits": "~2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/form-data/lib",
+          "node_modules/request/node_modules/form-data"
+        ],
+        "dependencies": {
+          "combined-stream": "~0.0.4",
+          "mime": "~1.2.11",
+          "async": "~0.9.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/form-data/node_modules/combined-stream/lib",
+          "node_modules/request/node_modules/form-data/node_modules/combined-stream"
+        ],
+        "dependencies": {
+          "delayed-stream": "0.0.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/hawk/example",
+          "node_modules/request/node_modules/hawk",
+          "node_modules/request/node_modules/hawk/lib",
+          "node_modules/request/node_modules/hawk/test"
+        ],
+        "dependencies": {
+          "hoek": "0.9.x",
+          "boom": "0.4.x",
+          "cryptiles": "0.2.x",
+          "sntp": "0.2.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/hawk/node_modules/boom",
+          "node_modules/request/node_modules/hawk/node_modules/boom/lib",
+          "node_modules/request/node_modules/hawk/node_modules/boom/test"
+        ],
+        "dependencies": {
+          "hoek": "0.9.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/hawk/node_modules/cryptiles",
+          "node_modules/request/node_modules/hawk/node_modules/cryptiles/lib",
+          "node_modules/request/node_modules/hawk/node_modules/cryptiles/test"
+        ],
+        "dependencies": {
+          "boom": "0.4.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/hawk/node_modules/sntp/examples",
+          "node_modules/request/node_modules/hawk/node_modules/sntp",
+          "node_modules/request/node_modules/hawk/node_modules/sntp/lib",
+          "node_modules/request/node_modules/hawk/node_modules/sntp/test"
+        ],
+        "dependencies": {
+          "hoek": "0.9.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/http-signature/lib",
+          "node_modules/request/node_modules/http-signature"
+        ],
+        "dependencies": {
+          "assert-plus": "0.1.2",
+          "asn1": "0.1.11",
+          "ctype": "0.5.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/request/node_modules/tough-cookie",
+          "node_modules/request/node_modules/tough-cookie/lib"
+        ],
+        "dependencies": {
+          "punycode": ">=0.2.0"
+        }
+      }
+    ]
+  }
+}

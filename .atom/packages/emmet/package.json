@@ -1,0 +1,190 @@
+{
+  "name": "emmet",
+  "description": "Emmet – the essential tool for web developers",
+  "main": "./lib/emmet",
+  "version": "2.2.0",
+  "dependencies": {
+    "emmet": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmetio/emmet-atom"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "readme": "# Emmet plugin Atom editor\n\n[Emmet](http://emmet.io) support for [Atom](http://atom.io).\n\n## Installation\n\nIn Atom, open Preferences > Packages, search for `Emmet` package. Once it found, click `Install` button to install package.\n\n### Manual installation\n\nYou can install the latest Emmet version manually from console:\n\n```bash\ncd ~/.atom/packages\ngit clone https://github.com/emmetio/emmet-atom\ncd emmet-atom\nnpm install\n```\n\nThen restart Atom editor.\n\n## Features:\n\n* Expand abbreviations by <kbd>Tab</kbd> key.\n* Multiple cursor support: most [Emmet actions](http://docs.emmet.io/actions/) like Expand Abbreviation, Wrap with Abbreviation, Update Tag can run in multi-cursor mode.\n* Interactive actions (Interactive Expand Abbreviation, Wrap With Abbreviation, Update Tag) allows you to preview result real-time as you type.\n* Better tabstops in generated content: when abbreviation expanded, hit <kbd>Tab</kbd> key to quickly traverse between important code points.\n* [Emmet v1.1 core](http://emmet.io/blog/beta-v1-1/).\n\nPlease report any problems at [issue tracker](https://github.com/emmetio/emmet-atom/issues).\n\n## Default Keybindings\n\nYou can change these Preferences > Emmet.\n\nCommand | Darwin | Linux/Windows\n------- | ------ | -------------\nExpand Abbreviation | <kbd>tab</kbd> or <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>e</kbd> | <kbd>tab</kbd> or <kbd>ctrl</kbd> + <kbd>e</kbd>\nExpand Abbreviation (interactive) | <kbd>alt</kbd> + <kbd>⌘</kbd> + <kbd>enter</kbd> | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>enter</kbd>\nWrap with Abbreviation | <kbd>ctrl</kbd> + <kbd>w</kbd> | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>w</kbd>\nBalance (outward) | <kbd>ctrl</kbd> + <kbd>d</kbd> | <kbd>ctrl</kbd> + <kbd>,</kbd>\nBalance (inward) | <kbd>alt</kbd> + <kbd>d</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>0</kbd>\nGo to Matching Pair | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>j</kbd> | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>j</kbd>\nNext Edit Point | <kbd>ctrl</kbd> + <kbd>→</kbd> | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>→</kbd>\nPrevious Edit Point | <kbd>ctrl</kbd> + <kbd>←</kbd> | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>←</kbd>\nSelect Next Item | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>.</kbd>\nSelect Previous Item | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>,</kbd>\nToggle Comment | <kbd>⌘</kbd> + <kbd>/</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>/</kbd>\nSplit/Join Tag | <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>j</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>\nRemove Tag | <kbd>⌘</kbd> + <kbd>'</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>;</kbd>\nEvaluate Math Expression | <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>y</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>y</kbd>\nIncrement Number by 0.1 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>↑</kbd> | <kbd>alt</kbd> + <kbd>↑</kbd>\nDecrement Number by 0.1 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>↓</kbd> | <kbd>alt</kbd> + <kbd>↓</kbd>\nIncrement Number by 1 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>⌘</kbd> + <kbd>↑</kbd> | <kbd>ctrl</kbd> + <kbd>↑</kbd>\nDecrement Number by 1 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>⌘</kbd> + <kbd>↓</kbd> | <kbd>ctrl</kbd> + <kbd>↓</kbd>\nIncrement Number by 10 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>⌘</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>↑</kbd>\nDecrement Number by 10 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>⌘</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd> | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>↓</kbd>\nReflect CSS value | <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>r</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>\nUpdate Image Size | <kbd>ctrl</kbd> + <kbd>i</kbd> | <kbd>ctrl</kbd> + <kbd>u</kbd>\nEncode/Decode image to data:URL | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> | <kbd>ctrl</kbd> + <kbd>'</kbd>\nUpdate Tag | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>'</kbd>\nMerge Lines | <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>m</kbd> | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>m</kbd>\n\nAll actions and their keyboard shortcuts are available under Packages > Emmet menu item.\n\n## Extensions support\n\nYou can easily [extend](http://docs.emmet.io/customization/) Emmet with new actions and filters or customize existing ones. In Preferences > Emmet, set Extensions path to folder with Emmet extensions. By default, it’s `~/emmet`, e.g. `emmet` folder in your system HOME folder.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/emmetio/emmet-atom/issues"
+  },
+  "homepage": "https://github.com/emmetio/emmet-atom",
+  "_id": "emmet@2.2.0",
+  "dist": {
+    "shasum": "bac3fa024dc3af21420c5ee00a1732318fbd5a88"
+  },
+  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\emmet\\2.2.0\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "emmet",
+        "version": "1.1.6",
+        "path": "node_modules/emmet/lib/emmet.js"
+      },
+      {
+        "name": "lodash",
+        "version": "2.4.1",
+        "path": "node_modules/emmet/node_modules/lodash/lodash.js"
+      },
+      {
+        "name": "requirejs",
+        "version": "2.1.15",
+        "path": "node_modules/emmet/node_modules/requirejs/bin/r.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "generate-menu.js",
+        "lib/interactive.js",
+        "node_modules/emmet/Gruntfile.js",
+        "node_modules/emmet/lib/action/balance.js",
+        "node_modules/emmet/lib/action/base64.js",
+        "node_modules/emmet/lib/action/editPoints.js",
+        "node_modules/emmet/lib/action/evaluateMath.js",
+        "node_modules/emmet/lib/action/expandAbbreviation.js",
+        "node_modules/emmet/lib/action/incrementDecrement.js",
+        "node_modules/emmet/lib/action/lineBreaks.js",
+        "node_modules/emmet/lib/action/main.js",
+        "node_modules/emmet/lib/action/mergeLines.js",
+        "node_modules/emmet/lib/action/reflectCSSValue.js",
+        "node_modules/emmet/lib/action/removeTag.js",
+        "node_modules/emmet/lib/action/selectItem.js",
+        "node_modules/emmet/lib/action/selectLine.js",
+        "node_modules/emmet/lib/action/splitJoinTag.js",
+        "node_modules/emmet/lib/action/toggleComment.js",
+        "node_modules/emmet/lib/action/updateImageSize.js",
+        "node_modules/emmet/lib/action/updateTag.js",
+        "node_modules/emmet/lib/action/wrapWithAbbreviation.js",
+        "node_modules/emmet/lib/assets/caniuse.js",
+        "node_modules/emmet/lib/assets/elements.js",
+        "node_modules/emmet/lib/assets/handlerList.js",
+        "node_modules/emmet/lib/assets/htmlMatcher.js",
+        "node_modules/emmet/lib/assets/logger.js",
+        "node_modules/emmet/lib/assets/preferences.js",
+        "node_modules/emmet/lib/assets/profile.js",
+        "node_modules/emmet/lib/assets/range.js",
+        "node_modules/emmet/lib/assets/resources.js",
+        "node_modules/emmet/lib/assets/selector.js",
+        "node_modules/emmet/lib/assets/stringScore.js",
+        "node_modules/emmet/lib/assets/stringStream.js",
+        "node_modules/emmet/lib/assets/tabStops.js",
+        "node_modules/emmet/lib/assets/tokenIterator.js",
+        "node_modules/emmet/lib/editTree/base.js",
+        "node_modules/emmet/lib/editTree/css.js",
+        "node_modules/emmet/lib/editTree/xml.js",
+        "node_modules/emmet/lib/emmet.js",
+        "node_modules/emmet/lib/filter/bem.js",
+        "node_modules/emmet/lib/filter/comment.js",
+        "node_modules/emmet/lib/filter/css.js",
+        "node_modules/emmet/lib/filter/escape.js",
+        "node_modules/emmet/lib/filter/format.js",
+        "node_modules/emmet/lib/filter/haml.js",
+        "node_modules/emmet/lib/filter/html.js",
+        "node_modules/emmet/lib/filter/jade.js",
+        "node_modules/emmet/lib/filter/main.js",
+        "node_modules/emmet/lib/filter/singleLine.js",
+        "node_modules/emmet/lib/filter/slim.js",
+        "node_modules/emmet/lib/filter/trim.js",
+        "node_modules/emmet/lib/filter/xsl.js",
+        "node_modules/emmet/lib/generator/lorem.js",
+        "node_modules/emmet/lib/interfaces/IEmmetEditor.js",
+        "node_modules/emmet/lib/interfaces/IEmmetFile.js",
+        "node_modules/emmet/lib/parser/abbreviation.js",
+        "node_modules/emmet/lib/parser/css.js",
+        "node_modules/emmet/lib/parser/processor/attributes.js",
+        "node_modules/emmet/lib/parser/processor/href.js",
+        "node_modules/emmet/lib/parser/processor/pastedContent.js",
+        "node_modules/emmet/lib/parser/processor/resourceMatcher.js",
+        "node_modules/emmet/lib/parser/processor/tagName.js",
+        "node_modules/emmet/lib/parser/xml.js",
+        "node_modules/emmet/lib/plugin/file.js",
+        "node_modules/emmet/lib/resolver/css.js",
+        "node_modules/emmet/lib/resolver/cssGradient.js",
+        "node_modules/emmet/lib/resolver/gradient/linear.js",
+        "node_modules/emmet/lib/resolver/less.js",
+        "node_modules/emmet/lib/resolver/preprocessor.js",
+        "node_modules/emmet/lib/resolver/scss.js",
+        "node_modules/emmet/lib/resolver/tagName.js",
+        "node_modules/emmet/lib/utils/abbreviation.js",
+        "node_modules/emmet/lib/utils/action.js",
+        "node_modules/emmet/lib/utils/base64.js",
+        "node_modules/emmet/lib/utils/comments.js",
+        "node_modules/emmet/lib/utils/common.js",
+        "node_modules/emmet/lib/utils/cssSections.js",
+        "node_modules/emmet/lib/utils/editor.js",
+        "node_modules/emmet/lib/utils/math.js",
+        "node_modules/emmet/lib/utils/template.js",
+        "node_modules/emmet/lib/vendor/almond.js",
+        "node_modules/emmet/lib/vendor/klass.js",
+        "node_modules/emmet/lib/vendor/stringScore.js",
+        "node_modules/emmet/node_modules/.bin/r.js",
+        "node_modules/emmet/node_modules/lodash/lodash.js",
+        "node_modules/emmet/node_modules/requirejs/bin/r.js",
+        "node_modules/emmet/node_modules/requirejs/require.js"
+      ],
+      ".coffee": [
+        "lib/editor-proxy.coffee",
+        "lib/emmet.coffee",
+        "lib/prompt.coffee"
+      ],
+      ".json": [
+        "node_modules/emmet/lib/caniuse.json",
+        "node_modules/emmet/lib/snippets.json",
+        "node_modules/emmet/node_modules/lodash/package.json",
+        "node_modules/emmet/node_modules/requirejs/package.json",
+        "node_modules/emmet/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "lib",
+          "menus",
+          "spec"
+        ],
+        "dependencies": {
+          "emmet": "^1.1.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/emmet",
+          "node_modules/emmet/lib/action",
+          "node_modules/emmet/lib/assets",
+          "node_modules/emmet/lib",
+          "node_modules/emmet/lib/editTree",
+          "node_modules/emmet/lib/filter",
+          "node_modules/emmet/lib/generator",
+          "node_modules/emmet/lib/interfaces",
+          "node_modules/emmet/lib/parser",
+          "node_modules/emmet/lib/parser/processor",
+          "node_modules/emmet/lib/plugin",
+          "node_modules/emmet/lib/resolver",
+          "node_modules/emmet/lib/resolver/gradient",
+          "node_modules/emmet/lib/utils",
+          "node_modules/emmet/lib/vendor",
+          "node_modules/emmet/test/actions",
+          "node_modules/emmet/test",
+          "node_modules/emmet/test/editTree",
+          "node_modules/emmet/test/stubs"
+        ],
+        "dependencies": {
+          "requirejs": "~2.1.9"
+        }
+      }
+    ]
+  }
+}

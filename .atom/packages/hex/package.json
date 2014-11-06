@@ -1,0 +1,138 @@
+{
+  "name": "hex",
+  "main": "./lib/hex",
+  "version": "0.3.10",
+  "description": "Hex Viewer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbeEstrada/atom-hex"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "fs-plus": "2.x",
+    "entities": "^1.0.0"
+  },
+  "readme": "# Hex Viewer for [Atom](http://atom.io)\n\nView the hex dump of a file\n\n## Install\n\n    apm install hex\n\nIf you want a shortcut, you can open your `keymap.cson` file and add this:\n\n    '.editor:not(.mini)':\n      'shift-ctrl-h': 'hex:view'\n\n---\n\n![Screenshot](https://cloud.githubusercontent.com/assets/7937/2545687/a57ab926-b61e-11e3-9460-40b6733313bc.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/AbeEstrada/atom-hex/issues"
+  },
+  "homepage": "https://github.com/AbeEstrada/atom-hex",
+  "_id": "hex@0.3.10",
+  "dist": {
+    "shasum": "2295cacd53f0980b008a50ecc6cb6dc1545a57c7"
+  },
+  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\hex\\0.3.10\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "entities",
+        "version": "1.1.1",
+        "path": "node_modules/entities/index.js"
+      },
+      {
+        "name": "fs-plus",
+        "version": "2.3.1",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "async",
+        "version": "0.2.10",
+        "path": "node_modules/fs-plus/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/fs-plus/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/fs-plus/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.1",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/hex-view.coffee",
+        "lib/hex.coffee"
+      ],
+      ".js": [
+        "node_modules/entities/index.js",
+        "node_modules/entities/lib/decode.js",
+        "node_modules/entities/lib/decode_codepoint.js",
+        "node_modules/entities/lib/encode.js",
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs-plus/node_modules/async/lib/async.js",
+        "node_modules/fs-plus/node_modules/mkdirp/examples/pow.js",
+        "node_modules/fs-plus/node_modules/mkdirp/index.js",
+        "node_modules/fs-plus/node_modules/rimraf/bin.js",
+        "node_modules/fs-plus/node_modules/rimraf/rimraf.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      ],
+      ".json": [
+        "node_modules/entities/maps/decode.json",
+        "node_modules/entities/maps/entities.json",
+        "node_modules/entities/maps/legacy.json",
+        "node_modules/entities/maps/xml.json",
+        "node_modules/entities/package.json",
+        "node_modules/fs-plus/node_modules/async/component.json",
+        "node_modules/fs-plus/node_modules/async/package.json",
+        "node_modules/fs-plus/node_modules/mkdirp/package.json",
+        "node_modules/fs-plus/node_modules/rimraf/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/package.json",
+        "node_modules/fs-plus/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "fs-plus": "2.x",
+          "entities": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "underscore-plus": "1.x",
+          "mkdirp": "~0.3.5",
+          "rimraf": "~2.2.2",
+          "async": "~0.2.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/node_modules/underscore-plus/lib",
+          "node_modules/fs-plus/node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      }
+    ]
+  }
+}

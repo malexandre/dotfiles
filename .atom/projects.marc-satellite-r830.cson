@@ -1,0 +1,10 @@
+'Solvay PGT':
+  'title': 'Solvay PGT'
+  'paths': [
+    '/home/marc/git/solvay-pgt'
+  ]
+'Veolia MESEP':
+  'title': 'Veolia MESEP'
+  'paths': [
+    '/home/marc/git/veolia-mesep'
+  ]

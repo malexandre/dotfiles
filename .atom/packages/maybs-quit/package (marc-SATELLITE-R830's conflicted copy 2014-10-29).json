@@ -1,0 +1,44 @@
+{
+  "name": "maybs-quit",
+  "main": "./lib/maybs-quit",
+  "version": "0.1.0",
+  "description": "Quitting shouldn't be so easy. Modal confirmation dialogs are annoying, so why not show a quick panel instead?",
+  "activationEvents": [
+    "maybs-quit:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malexandre/maybs-quit"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# maybs-quit package\n\nSimple portage of the [Maybs-Quit package from Sublime Text](https://github.com/xavi-/sublime-maybs-quit).\n\nQuote :\n> Why are <kbd>ctrl/cmd</kbd> + <kbd>w</kbd> (close file) and <kbd>ctrl/cmd</kbd> + <kbd>q</kbd> (quit) right next to each other?!?! I'm just trying to close a file, but for some insane reason my pinky drifts 1cm to the left and suddenly sublime disappears.\n>\n> Never again!\n\n![Demo](demo.png)\n\n## Installation\n```sh\napm install maybs-quit\n```\nor find it in the Packages tab under settings.\n\n## Usage\nThe default <kbd>ctrl/cmd</kbd> + <kbd>q</kbd> keybinding is replaced by the menu from Maybs-Quit.\n\n<kbd>alt</kbd> + <kbd>F4</kbd> still quits the application.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/malexandre/maybs-quit/issues"
+  },
+  "homepage": "https://github.com/malexandre/maybs-quit",
+  "_id": "maybs-quit@0.1.0",
+  "dist": {
+    "shasum": "76f7c2275ff939f777621daaf4026bf1396e6061"
+  },
+  "_resolved": "/tmp/d-114929-991-1htu5s8/package.tgz",
+  "_from": "/tmp/d-114929-991-1htu5s8/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/maybs-quit-view.coffee",
+        "lib/maybs-quit.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
