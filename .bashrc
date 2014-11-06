@@ -5,7 +5,6 @@
 export APPENGINE=/home/marc/google-cloud-sdk/bin/
 source /home/marc/google-cloud-sdk/path.bash.inc
 source /home/marc/google-cloud-sdk/completion.bash.inc
-source /home/marc/.gae-test
 
 alias ..="cd .."
 alias ls="ls --color=auto"
