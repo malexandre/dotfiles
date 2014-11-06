@@ -17,3 +17,5 @@
 	insteadOf = git://github
 [merge]
 	conflictstyle = diff3
+[push]
+	default = simple
