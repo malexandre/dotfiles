@@ -1,11 +1,11 @@
 
 [user]
-	name = Marc ALEXANDRE
-	email = marc@lumapps.com
+    name = Marc ALEXANDRE
+    email = marc@lumapps.com
 [diff]
-	tool = subl
+    tool = subl
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     eu = "!f() { git diff --name-status --diff-filter=U | cut -f2 ; }; subl `f`"
     au = "!f() { git diff --name-status --diff-filter=U | cut -f2 ; }; git add `f`"
     pop = !sh -c 'git stash pop'
@@ -14,8 +14,8 @@
     mp = "!git stash; git checkout $1; git merge @{-1}; git push origin $1; git checkout @{-1}; git pop"
     rmp = "!git reb $1; git mp $1"
 [url "https://github"]
-	insteadOf = git://github
+    insteadOf = git://github
 [merge]
-	conflictstyle = diff3
+    conflictstyle = diff3
 [push]
-	default = simple
+    default = simple

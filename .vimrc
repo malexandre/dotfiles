@@ -65,8 +65,8 @@ set smartcase
 map <silent> <leader><cr> :noh<cr>
 
 " Tab management
-map <C-T> :tabnew<CR>:edit 
-map <C-O> :tabfind 
+map <C-T> :tabnew<CR>:edit
+map <C-O> :tabfind
 noremap <S-Tab> gt
 
 " Smart backspace
