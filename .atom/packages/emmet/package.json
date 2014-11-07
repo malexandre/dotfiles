@@ -2,9 +2,9 @@
   "name": "emmet",
   "description": "Emmet – the essential tool for web developers",
   "main": "./lib/emmet",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "dependencies": {
-    "emmet": "^1.1.6"
+    "emmet": "^1.1.7"
   },
   "repository": {
     "type": "git",
@@ -19,17 +19,18 @@
     "url": "https://github.com/emmetio/emmet-atom/issues"
   },
   "homepage": "https://github.com/emmetio/emmet-atom",
-  "_id": "emmet@2.2.0",
+  "_id": "emmet@2.2.1",
   "dist": {
-    "shasum": "bac3fa024dc3af21420c5ee00a1732318fbd5a88"
+    "shasum": "7c119513d32e7cfc5a31dff355d73d4bc0e3caf0"
   },
-  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\emmet\\2.2.0\\package.tgz",
+  "_resolved": "/tmp/d-114107-4016-1b06pte/package.tgz",
+  "_from": "/tmp/d-114107-4016-1b06pte/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
       {
         "name": "emmet",
-        "version": "1.1.6",
+        "version": "1.1.7",
         "path": "node_modules/emmet/lib/emmet.js"
       },
       {
@@ -156,7 +157,7 @@
           "spec"
         ],
         "dependencies": {
-          "emmet": "^1.1.6"
+          "emmet": "^1.1.7"
         }
       },
       {
