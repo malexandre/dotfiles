@@ -1,0 +1,181 @@
+{
+  "name": "subword-navigation",
+  "main": "./lib/main",
+  "version": "1.2.1",
+  "description": "Navigate camelCase and snake_case words",
+  "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsandstrom/atom-subword-navigation"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.125.0"
+  },
+  "dependencies": {
+    "fs-plus": "2.x",
+    "temp": "~0.6.0",
+    "underscore-plus": "1.x"
+  },
+  "readme": "# Subword Navigation\n###### An Atom Package - [Atom.io](https://atom.io/packages/subword-navigation) : [Github](https://github.com/dsandstrom/atom-subword-navigation) : [![Build Status](https://travis-ci.org/dsandstrom/atom-subword-navigation.svg?branch=master)](https://travis-ci.org/dsandstrom/atom-subword-navigation)\n\n**Harness the power of ALT as you battle the mighty camelCase and treacherous snake_case.**\n\nThis package allows you to move the cursor(s) to beginning and end of words, but also it stops at subwords (camelCase and snake_case).\n\n- Holding `shift` will highlight as you move left and right.\n\n- Along with highlight, you can delete to the previous/next subword.  However, I did not assign keybindings to them; they are BYOK to prevent conflicts.  Command names are at the bottom of the page.\n\n- Issues and pull requests are welcome.\n\n### Instructions\n\n|  Linux/Win  |            |            |\n|-------------|----------------|-----------------|\n| Move around | `alt-left`       | `alt-right `   |\n| Highlight   | `alt-shift-left` | `alt-shift-right` |\n| Delete      | *unset*          | *unset* |\n\n|     Mac     |            |            |\n|-------------|----------------|-----------------|\n| Move around | `ctrl-alt-left`  | `alt-right`       |\n| Highlight   | `ctrl-alt-shift-left` | `ctrl-alt-shift-right` |\n| Delete      | *unset* | *unset* |\n\n\n### Dependencies\nRequires Atom v0.126 and up\n\n\n### Commands\n```coffee\n'subword-navigation:move-right'\n'subword-navigation:move-left'\n'subword-navigation:select-right'\n'subword-navigation:select-left'\n'subword-navigation:delete-right'\n'subword-navigation:delete-left'\n```\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/dsandstrom/atom-subword-navigation/issues"
+  },
+  "homepage": "https://github.com/dsandstrom/atom-subword-navigation",
+  "_id": "subword-navigation@1.2.1",
+  "dist": {
+    "shasum": "aeeb8e0dd0430082037fa8622a1ad9904e3ef810"
+  },
+  "_resolved": "/tmp/d-114107-4239-1m9g892/package.tgz",
+  "_from": "/tmp/d-114107-4239-1m9g892/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "fs-plus",
+        "version": "2.3.1",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "async",
+        "version": "0.2.10",
+        "path": "node_modules/fs-plus/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/fs-plus/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/fs-plus/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "temp",
+        "version": "0.6.0",
+        "path": "node_modules/temp/lib/temp.js"
+      },
+      {
+        "name": "osenv",
+        "version": "0.0.3",
+        "path": "node_modules/temp/node_modules/osenv/osenv.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.1.4",
+        "path": "node_modules/temp/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "1.2.3",
+        "path": "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.1",
+        "path": "node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/main.coffee",
+        "lib/subword-navigation.coffee"
+      ],
+      ".js": [
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs-plus/node_modules/async/lib/async.js",
+        "node_modules/fs-plus/node_modules/mkdirp/examples/pow.js",
+        "node_modules/fs-plus/node_modules/mkdirp/index.js",
+        "node_modules/fs-plus/node_modules/rimraf/bin.js",
+        "node_modules/fs-plus/node_modules/rimraf/rimraf.js",
+        "node_modules/temp/examples/grepcount.js",
+        "node_modules/temp/examples/pdfcreator.js",
+        "node_modules/temp/lib/temp.js",
+        "node_modules/temp/node_modules/osenv/osenv.js",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/temp/node_modules/rimraf/rimraf.js",
+        "node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      ],
+      ".json": [
+        "node_modules/fs-plus/node_modules/async/component.json",
+        "node_modules/fs-plus/node_modules/async/package.json",
+        "node_modules/fs-plus/node_modules/mkdirp/package.json",
+        "node_modules/fs-plus/node_modules/rimraf/package.json",
+        "node_modules/fs-plus/package.json",
+        "node_modules/temp/node_modules/osenv/package.json",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/package.json",
+        "node_modules/temp/node_modules/rimraf/package.json",
+        "node_modules/temp/package.json",
+        "node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/underscore-plus/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec/fixtures",
+          "spec"
+        ],
+        "dependencies": {
+          "fs-plus": "2.x",
+          "temp": "~0.6.0",
+          "underscore-plus": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "underscore-plus": "1.x",
+          "mkdirp": "~0.3.5",
+          "rimraf": "~2.2.2",
+          "async": "~0.2.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/examples",
+          "node_modules/temp/lib",
+          "node_modules/temp",
+          "node_modules/temp/test"
+        ],
+        "dependencies": {
+          "rimraf": "~2.1.4",
+          "osenv": "0.0.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/node_modules/rimraf",
+          "node_modules/temp/node_modules/rimraf/test"
+        ],
+        "dependencies": {
+          "graceful-fs": "~1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/underscore-plus/lib",
+          "node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      }
+    ]
+  }
+}

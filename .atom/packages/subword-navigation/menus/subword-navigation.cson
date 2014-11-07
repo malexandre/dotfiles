@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Subword Navigation'
+      'submenu': [
+        { 'label': 'Move Right', 'command': 'subword-navigation:move-right' }
+        { 'label': 'Move Left', 'command': 'subword-navigation:move-left' }
+        { 'label': 'Select Right', 'command': 'subword-navigation:select-right' }
+        { 'label': 'Select Left', 'command': 'subword-navigation:select-left' }
+      ]
+    ]
+  }
+]
