@@ -13,7 +13,7 @@
     box-shadow: inset 1px 0 #333;
 }
 
-.editor
+.editor.editor-colors
 {
     background-color: #222;
 }
@@ -21,6 +21,28 @@
 .wrap-guide
 {
     background-color: #333;
+}
+
+.leading-whitespace
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight-line .leading-whitespace:after
+{
+    content: '........................................................................................................';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #666;
+}
+
+.highlight-line .leading-whitespace.hard-tab:after
+{
+    content: '»';
 }
 
 // SIDE BAR
