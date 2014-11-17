@@ -23,8 +23,8 @@
   'paths': [
     '/home/marc/git/maybs-quit'
   ]
-'Pelican theme':
-  'title': 'Pelican theme'
+'Gumpify':
+  'title': 'Gumpify'
   'paths': [
-    '/home/marc/git/pelican-theme'
+    '/home/marc/git/gumpify'
   ]
