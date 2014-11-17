@@ -13,9 +13,11 @@
     reb = "!git fetch; git ro $1"
     mp = "!git stash; git checkout $1; git merge @{-1}; git push origin $1; git checkout @{-1}; git pop"
     rmp = "!git reb $1; git mp $1"
-[url "https://github"]
-    insteadOf = git://github
+#[url "https://github"]
+#    insteadOf = git://github
 [merge]
     conflictstyle = diff3
 [push]
     default = simple
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
