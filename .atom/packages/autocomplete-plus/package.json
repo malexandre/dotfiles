@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-plus",
-  "version": "0.21.0",
+  "version": "0.22.1",
   "main": "./lib/autocomplete",
   "description": "Display possible completions in the editor while typing",
   "repository": {
@@ -25,6 +25,7 @@
     "emissary": "1.x",
     "fuzzaldrin": "~1.0.0",
     "minimatch": "~0.2.14",
+    "semver": "~3.0.1",
     "temp": ">=0.7.0",
     "underscore-plus": "1.x"
   },
@@ -34,11 +35,12 @@
     "url": "https://github.com/saschagehlich/autocomplete-plus/issues"
   },
   "homepage": "https://github.com/saschagehlich/autocomplete-plus",
-  "_id": "autocomplete-plus@0.21.0",
+  "_id": "autocomplete-plus@0.22.1",
   "dist": {
-    "shasum": "a444a5a28f09fdc6a92408d3a8f1f56c71a8c0b8"
+    "shasum": "115766b72b8d11ba43cbb6d553714826db222af5"
   },
-  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\autocomplete-plus\\0.21.0\\package.tgz",
+  "_resolved": "/tmp/d-1141017-16651-pgbf2f/package.tgz",
+  "_from": "/tmp/d-1141017-16651-pgbf2f/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -93,6 +95,11 @@
         "path": "node_modules/minimatch/node_modules/sigmund/sigmund.js"
       },
       {
+        "name": "semver",
+        "version": "3.0.1",
+        "path": "node_modules/semver/semver.js"
+      },
+      {
         "name": "temp",
         "version": "0.8.1",
         "path": "node_modules/temp/lib/temp.js"
@@ -136,6 +143,7 @@
         "node_modules/minimatch/node_modules/lru-cache/package.json",
         "node_modules/minimatch/node_modules/sigmund/package.json",
         "node_modules/minimatch/package.json",
+        "node_modules/semver/package.json",
         "node_modules/temp/node_modules/rimraf/package.json",
         "node_modules/temp/package.json",
         "node_modules/underscore-plus/node_modules/underscore/package.json",
@@ -164,6 +172,11 @@
         "node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js",
         "node_modules/minimatch/node_modules/sigmund/bench.js",
         "node_modules/minimatch/node_modules/sigmund/sigmund.js",
+        "node_modules/semver/foot.js",
+        "node_modules/semver/head.js",
+        "node_modules/semver/semver.browser.js",
+        "node_modules/semver/semver.js",
+        "node_modules/semver/semver.min.js",
         "node_modules/temp/examples/grepcount.js",
         "node_modules/temp/examples/pdfcreator.js",
         "node_modules/temp/lib/temp.js",
@@ -193,6 +206,7 @@
           "emissary": "1.x",
           "fuzzaldrin": "~1.0.0",
           "minimatch": "~0.2.14",
+          "semver": "~3.0.1",
           "temp": ">=0.7.0",
           "underscore-plus": "1.x"
         }

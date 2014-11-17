@@ -1,7 +1,7 @@
 {
   "name": "atom-color-highlight",
   "main": "./lib/atom-color-highlight",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "private": true,
   "description": "Highlights color in files",
   "repository": {
@@ -29,11 +29,12 @@
     "url": "https://github.com/abe33/atom-color-highlight/issues"
   },
   "homepage": "https://github.com/abe33/atom-color-highlight",
-  "_id": "atom-color-highlight@2.0.4",
+  "_id": "atom-color-highlight@2.0.6",
   "dist": {
-    "shasum": "3c25429533cea81732ace9c114dbbf0ecc0881c9"
+    "shasum": "2f6234206a779924402bf145cac78067db08d1bb"
   },
-  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\atom-color-highlight\\2.0.4\\package.tgz",
+  "_resolved": "/tmp/d-1141017-16639-dfp3f2/package.tgz",
+  "_from": "/tmp/d-1141017-16639-dfp3f2/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -125,6 +126,11 @@
       {
         "name": "q",
         "version": "1.0.1",
+        "path": "node_modules/pigments/node_modules/q/q.js"
+      },
+      {
+        "name": "q",
+        "version": "1.1.1",
         "path": "node_modules/q/q.js"
       },
       {
@@ -208,6 +214,10 @@
         "node_modules/pigments/node_modules/property-accessors/lib/property-accessors.js",
         "node_modules/pigments/node_modules/property-accessors/node_modules/harmony-collections/harmony-collections.js",
         "node_modules/pigments/node_modules/property-accessors/node_modules/harmony-collections/harmony-collections.min.js",
+        "node_modules/pigments/node_modules/q/benchmark/compare-with-callbacks.js",
+        "node_modules/pigments/node_modules/q/benchmark/scenarios.js",
+        "node_modules/pigments/node_modules/q/q.js",
+        "node_modules/pigments/node_modules/q/queue.js",
         "node_modules/q/benchmark/compare-with-callbacks.js",
         "node_modules/q/benchmark/scenarios.js",
         "node_modules/q/q.js",
@@ -235,6 +245,7 @@
         "node_modules/pigments/node_modules/css-color-function/package.json",
         "node_modules/pigments/node_modules/property-accessors/node_modules/harmony-collections/package.json",
         "node_modules/pigments/node_modules/property-accessors/package.json",
+        "node_modules/pigments/node_modules/q/package.json",
         "node_modules/pigments/package.json",
         "node_modules/q/package.json",
         "node_modules/underscore-plus/node_modules/underscore/package.json",

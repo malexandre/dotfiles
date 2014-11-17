@@ -11,7 +11,6 @@
       'timecop'
       'styleguide'
       'release-notes'
-      'package-generator'
       'language-toml'
     ]
     'themes': [
@@ -26,13 +25,13 @@
     ]
   'tree-view':
     'hideIgnoredNames': true
-    'hideVcsIgnoredFiles': true
   'editor':
     'fontFamily': 'Droid Sans Mono'
     'fontSize': 12
     'preferredLineLength': 120
     'showIndentGuide': true
     'tabLength': 4
+    'invisibles': {}
   'autoclose-html':
     'closeOnEndOfOpeningTag': true
   'atom-beautify':
@@ -61,46 +60,47 @@
   'Zen':
     'fullscreen': true
   'minimap':
-    'plugins':
-      'highlight-selected': true
+    'plugins': {}
+  'linter':
+    'showHighlighting': false
 '.js.rails.source source.jquery.js':
   'editor':
     'preferredLineLength': 120
 '.rails.rjs.ruby.source':
   'editor':
     'preferredLineLength': 120
-'.css.scss.source':
+'.rails.ruby.source':
   'editor':
     'preferredLineLength': 120
-'.python.regexp.source':
-  'editor':
-    'preferredLineLength': 120
-'.ruby.source.sql':
-  'editor':
-    'preferredLineLength': 120
-'.html.ruby.text':
-  'editor':
-    'tabLength': 2
-    'preferredLineLength': 120
-'.mustache.source.sql':
-  'editor': {}
-'.html.php.text':
-  'editor': {}
-'.text.xml.xsl':
-  'editor': {}
-'.plist.text.xml':
-  'editor': {}
-'.html.mustache.text':
-  'editor': {}
-'.js.regexp.source':
+'.erb.html.text':
   'editor': {}
 '.basic.html.text':
   'editor':
     'tabLength': 2
     'preferredLineLength': 120
-'.erb.html.text':
+'.js.regexp.source':
   'editor': {}
-'.rails.ruby.source':
+'.html.mustache.text':
+  'editor': {}
+'.plist.text.xml':
+  'editor': {}
+'.text.xml.xsl':
+  'editor': {}
+'.html.php.text':
+  'editor': {}
+'.mustache.source.sql':
+  'editor': {}
+'.html.ruby.text':
+  'editor':
+    'tabLength': 2
+    'preferredLineLength': 120
+'.ruby.source.sql':
+  'editor':
+    'preferredLineLength': 120
+'.python.regexp.source':
+  'editor':
+    'preferredLineLength': 120
+'.css.scss.source':
   'editor':
     'preferredLineLength': 120
 '.js.jsx.source':
@@ -108,43 +108,45 @@
     'preferredLineLength': 120
 '.c.source ++ *':
   'editor': {}
-'.python.source':
-  'editor': {}
-'.plain.text':
-  'editor': {}
-'.js.source':
+'.litcoffee.source':
+  'editor':
+    'tabLength': 2
+'.sass.source':
   'editor':
     'preferredLineLength': 120
-'.git-commit.text':
+'.ruby.source':
+  'editor':
+    'preferredLineLength': 120
+'.git-rebase.text':
   'editor': {}
-'.coffee.source':
-  'editor': {}
-'.source.sql':
-  'editor': {}
-'.text.xml':
-  'editor': {}
-'.source.yaml':
-  'editor': {}
-'.source.toml':
-  'editor': {}
-'.plist.source':
-  'editor': {}
-'.c.source':
-  'editor': {}
-'.gfm.source':
-  'editor': {}
-'.litcoffee.source':
+'.git-config.source':
   'editor': {}
 '.css.source':
   'editor':
     'preferredLineLength': 120
-'.git-config.source':
+'.gfm.source':
   'editor': {}
-'.git-rebase.text':
+'.c.source':
   'editor': {}
-'.ruby.source':
+'.plist.source':
+  'editor': {}
+'.source.toml':
+  'editor': {}
+'.source.yaml':
+  'editor': {}
+'.text.xml':
+  'editor': {}
+'.source.sql':
+  'editor': {}
+'.git-commit.text':
+  'editor': {}
+'.js.source':
   'editor':
     'preferredLineLength': 120
-'.sass.source':
+'.plain.text':
+  'editor': {}
+'.python.source':
+  'editor': {}
+'.coffee.source':
   'editor':
-    'preferredLineLength': 120
+    'tabLength': 2

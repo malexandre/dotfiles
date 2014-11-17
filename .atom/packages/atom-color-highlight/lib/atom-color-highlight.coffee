@@ -25,7 +25,7 @@ class AtomColorHighlight
     excludedGrammars:
       type: 'array'
       default: []
-      description: "Prevents files matching the specified grammars from having their colors highligted. Changing this setting may need a restart to take effect."
+      description: "Prevents files matching the specified grammars scopes from having their colors highligted. Changing this setting may need a restart to take effect. This setting takes a list of scope strings separated with commas. Scope for a grammar can be found in the corresponding package description in the settings view."
       items:
         type: 'string'
 
@@ -52,6 +52,7 @@ class AtomColorHighlight
     @modelForEditor(editorView.getEditor()) if editorView?.hasClass('editor')
 
   modelForEditor: (editor) -> @editors[editor.id]?.getActiveModel()
+
   viewForEditor: (editor) -> @editors[editor.id]?.getactiveView()
 
   deactivate: ->

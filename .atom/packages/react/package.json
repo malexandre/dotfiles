@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "description": "React.js (JSX) language support and snippets",
   "repository": {
     "type": "git",
@@ -19,11 +19,12 @@
     "url": "https://github.com/orktes/atom-react/issues"
   },
   "homepage": "https://github.com/orktes/atom-react",
-  "_id": "react@0.5.3",
+  "_id": "react@0.6.0",
   "dist": {
-    "shasum": "66aa3c876b05196ea66cf0ea638c9bf00f0cb5e0"
+    "shasum": "ade015f9b014081007181f6a38f75a0e029aa7e6"
   },
-  "_from": "C:\\Users\\Marc\\.atom\\.node-gyp\\.atom\\.apm\\react\\0.5.3\\package.tgz",
+  "_resolved": "/tmp/d-1141017-16710-18w8k5x/package.tgz",
+  "_from": "/tmp/d-1141017-16710-18w8k5x/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

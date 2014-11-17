@@ -1,3 +1,13 @@
+3.3.8 / 2014-11-14
+==================
+
+* exclude handling of text editor views that doesn't belong to a pane view
+
+3.3.7 / 2014-11-12
+==================
+
+* fix links to documentation in Readme
+
 3.3.6 / 2014-11-06
 ==================
 
