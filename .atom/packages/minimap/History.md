@@ -1,3 +1,24 @@
+3.3.12 / 2014-11-19
+==================
+
+* remove forgotten logging
+
+
+3.3.11 / 2014-11-19
+==================
+
+* fix access to minimap view in quick settings
+
+3.3.10 / 2014-11-18
+==================
+
+* fix minimap removed when the active item of a previous owner changed
+
+3.3.9 / 2014-11-18
+==================
+
+* fix pane and editor styles when shadow dom is enabled
+
 3.3.8 / 2014-11-14
 ==================
 
